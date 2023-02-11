@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: white url(../img/fundo.png) repeat-x;
+
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+
+}
+#topo {
+	height: 150px;
+	background: url(../img/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(../img/logo.png);
+	text-indent: -3000px;
+}
+
+
+/*
+BARRA DE NAVEGAÇÃO***
+
+*/
+
+a:link, a:visited{
+	color: #b10333;
+	padding: 2px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul#navegacao {
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+} 
+
+ul#navegacao >li{
+	float: left;
+}
+
+
+ul#navegacao>li>a {
+	font-size:1em;
+	display: block;
+	padding: 0.5em 1.5em;
+	text-decoration: none;
+	line-height: 2.1em;
+	color: white;
+	background: url(../img/divisor.png) no-repeat left center;
+
+}
+
+#topo ul .primeiro>a{
+	background: none;
+}
+
+#topo  li>a:hover{
+color: #69001d;
+transition: 0.1s;
+
+}
+body ul#navegacao li>a.selecionado{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+
+/*
+	CONFIGURAÇÃO LAYOUT DE 3 COLUNAS
+*/
+
+#conteudo{
+	margin-top:60px ;
+	background: #f5f5f5;
+}
+#primario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+	
+}
+
+
+
+#duas-colunas #primario{
+	width: 555px;
+	float: left;
+	margin: 0 0 15px 195px;
+	
+}
+
+
+
+#uma-coluna #primario{
+	width: 750px;
+	float: left;
+	margin: 0 0 15px 0px;
+	
+}
+
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+
+	
+}
+
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0px 0px 20px -750px;
+	
+}
+
+#container-rodape{
+	clear: both;
+	background: #294c71;
+	padding: 20px;
+}
+
+/*CAIXA*/
+	.caixa{
+		margin: 10px 0;
+		padding: 5px 0px ;
+		background: #f3f3f3 url(../imagens/fundo-caixa.png);
+	}
+
+	.caixa-conteudo{
+		background: #fff;
+		padding: 5px;
+		margin-top: 5px;
+	}
+
+
+
+	h2{
+		font-size: 1.1em;
+		color: white;
+		background: #294c71;
+		padding: 5px;
+	}
+
+/*FORMATAR MENUS LATERAIS*/
+
+	#lateral ul a {
+		font-size: .9em;
+		line-height: 30px;
+		color: black;
+		text-decoration: 
+		none;
+		display: block;
+		padding: 3px;
+		border-bottom: 1px solid #f3f3f3;
+
+	}
+
+
+	#lateral ul>li>a:hover{
+		color:#a1a1a1;
+		background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+		padding-left: 20px;
+		transition: 0.1s;
+	}
+
+	/*
+
+	FORMATANDO FORMULARIOS
+	
+	*/
+
+	label{
+		display: block;
+		cursor: pointer;
+	}
+
+	input{
+		margin: 2px 0px;
+		width: 125px;
+		padding: 5px;
+		overline:none;
+		border: 1px solid black;
+		font-size: 0.9em;
+		background: #fff;
+	}
+
+	input[type="submit"]{
+		width: 80px;
+		color: white;
+		background: #b10333;
+		border: 2px solid #870529;
+		padding: 5px;
+		cursor: pointer;
+	}
+
+/*
+
+	FORMATANDO IAMGENS
+
+*/
+
+	img.principal{
+		margin-top:3px ;
+		border: 2px solid #dfdfdf;
+	}
+
+
+	/*
+
+	FORMATANDO CABECALHOS
+	*/	
+
+.destaque h3{
+		font-size:0.8em ;
+		text-transform: uppercase;
+		display: inline;
+		padding: 3px;
+		color: white;
+		background: #b10333;
+
+	}	
+
+.entrevista h3{
+		font-size:0.8em ;
+		text-transform: uppercase;
+		display: inline;
+		padding: 3px;
+		color: white;
+		background: #de003e;
+
+	}	
+
+/*FORMATANDO LISTA DE NOTICIAS*/
+
+#lista-noticias li{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+
+#lista-noticias li a img{
+	float:left;	
+	margin: 5px;
+}	
+
+
+#lista-noticias li a {
+	color: black;
+}	
+
+#lista-noticias li a h3 {
+	text-decoration: none;
+	font-size: 0.9em;
+	padding: 0;
+	color:#3e7ab9;
+	background: white ;
+	clear: both;
+}
+
+#lista-noticias li a p {
+	text-decoration: none;
+	font-size: 0.8em;
+
+}
+
+
+#lista-noticias li:hover{
+background: #eee;
+cursor: pointer;
+}
+
+
+
+
+
+#rodape{
+	width:750px ;
+	margin: 0 auto;
+	color: white;
+}
